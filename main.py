@@ -1,1 +1,2 @@
-import Laboratorium
+import Laboratorium_1
+
