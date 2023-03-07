@@ -69,31 +69,51 @@
 # różnica = x - y
 # print('Różnica to:' , różnica)
 
+# x = float(input('Podaj x = '))
+# y = float(input('Podaj y = '))
+# iloczyn = x * y
+# print('Iloczyn to:' , iloczyn)
 
+# x = float(input('Podaj x = '))
+# y = float(input('Podaj y = '))
+# iloraz = x / y
+# print('Iloraz to:' , iloraz)
 
 # 2. Oblicz wyrażenie 2x+5y   gdzie: x,y to dowolne dwie liczby które podaje użytkownik (w konsoli)
 
-
-
-
-
-
-
-
+# x = float(input('Podaj x = '))
+# y = float(input('Podaj y = '))
+# c = 2 * x + 5 * y
+# print('Wynik wyrażenia 2x+5y to: ' , c)
 
 # 3. Popraw zmienną zdanie tak aby wyświetlany był napis: "Ala ma kota"
 
 # z = 'Ala'
 # x = "ma"
 # y = "kota"
-# zdanie = y + x + z
+# zdanie = z + x + y
 # print(z,x,y)
 
-
 # 4. Wyświetl zdanie "Jestem a b mam c lat studiuję d",
-#  gdzie : a-imie, a-nazwisko, c-liczba, d-kierunek studiów są dowolne zmienne które podaje użytkownik (wczytywane z klawiatury)
+#  gdzie : a-imie, b-nazwisko, c-liczba, d-kierunek studiów są dowolne zmienne które podaje użytkownik (wczytywane z klawiatury)
+
+# a = input('Podaj imię: ')
+# b = input('Podaj nazwisko: ')
+# c = input('Podaj wiek: ')
+# d = input('Podaj kierunek: ')
+# zdanie = 'Jestem' + ' ' + a + ' ' + b + ' ' + 'mam' + ' ' + c + ' ' + 'lat studiuję' + ' ' + d
+# print(zdanie)
+
 # 5. Sprawdź czy 1+2+10+20000001+4+347586970885 jest równa 321784560456434534646
+
+# x = 1 + 2 + 10 + 20000001 + 4 + 347586970885
+# y = 321784560456434534646
+# print(x==y)
+
 # 6. Sprawdź czy suma dowolnych dwóch liczb podanych przez użytkownika jest liczbą parzystą czy nieparzystą wyświetl właściwy komunikat
+
+
+
 # 7. Utwórz prosty kalkulator dla 2 zmiennych podanych przez użytkownika, który obliczy: sumę, różnicę,
 # iloczyn, iloraz, potęgę tych liczb, nie zapomnij o stosownych komentarzach informacyjnych dla użytkownika.
 # 8. Oblicz wyrażenie: a = 3z-|2cos(x)sin(y)|, gdzie: x,y,z - dowolne liczby     (|x| to moduł z liczby z, użyj funkcji abs())
