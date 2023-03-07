@@ -112,10 +112,33 @@
 
 # 6. Sprawdź czy suma dowolnych dwóch liczb podanych przez użytkownika jest liczbą parzystą czy nieparzystą wyświetl właściwy komunikat
 
+# a = int(input('Podaj pierwszą liczbę: '))
+# b = int(input('Podaj drugą liczbę: '))
+# suma = a + b
 
+# if suma % 2 == 0:
+#     print('Suma jest liczbą parzystą.')
+# else:
+#     print('Suma jest liczbą nieparzystą.')
 
 # 7. Utwórz prosty kalkulator dla 2 zmiennych podanych przez użytkownika, który obliczy: sumę, różnicę,
 # iloczyn, iloraz, potęgę tych liczb, nie zapomnij o stosownych komentarzach informacyjnych dla użytkownika.
+
+# a = float(input("Podaj pierwszą liczbę: "))
+# b = float(input("Podaj drugą liczbę: "))
+
+# suma = a + b
+# roznica = a - b
+# iloczyn = a * b
+# iloraz = a / b
+# potega = a ** b
+
+# print("Suma: ", suma)
+# print("Różnica: ", roznica)
+# print("Iloczyn: ", iloczyn)
+# print("Iloraz: ", iloraz)
+# print("Potęga: ", potega)
+
 # 8. Oblicz wyrażenie: a = 3z-|2cos(x)sin(y)|, gdzie: x,y,z - dowolne liczby     (|x| to moduł z liczby z, użyj funkcji abs())
 
 # import math
@@ -129,10 +152,64 @@
 
 # 9. Wykonaj mini ankietę tj. poproś użytkownika o następujące informacje: imie, nazwisko, wiek, zadaj mu pytania: "Czy zdrowo się odżywiasz?",
 # , "Czy lubisz sport?" i dodatkowo 3 inne własne. Po uzyskaniu wszystkich odpowiedzi wyświetl ich podsumowanie.
+
+# imie = input("Podaj swoje imię: ")
+# nazwisko = input("Podaj swoje nazwisko: ")
+# wiek = int(input("Podaj swój wiek: "))
+
+# print("Czy zdrowo się odżywiasz?")
+# odzywianie = input()
+
+# print("Czy lubisz sport?")
+# sport = input()
+
+# print("Czy masz rodzeństwo?:")
+# rodzeństwo = input()
+
+# print("Czy masz pupila:")
+# pupil = input()
+
+# print("Czy lubisz pizzę?:")
+# pizza = input()
+
+# print("Podsumowanie:")
+# print("Imię: ", imie)
+# print("Nazwisko: ", nazwisko)
+# print("Wiek: ", wiek)
+# print("Zdrowe odżywianie: ", odzywianie)
+# print("Lubienie sportu: ", sport)
+# print("Posiadanie rodzeństwa: ", rodzeństwo)
+# print("Posiadanie pupila: ", pupil)
+# print("Lubienie pizzy: ", pizza)
+
 # 10. Twoim zadaniem jest przygotowanie uniwersalnego i profesjonalnego życiorysu, złożonego z 10-ciu zdań, które wyświetlisz na ekranie
 # Użytkownik wpisuje tylko swoje imie, nazwisko, wiek, zawód, miejsce urodzenia, zainteresowania i ... życiorys jest gotowy.
+
+# imie = input("Podaj swoje imię: ")
+# nazwisko = input("Podaj swoje nazwisko: ")
+# wiek = input("Podaj swój wiek: ")
+# zawod = input("Podaj swój zawód: ")
+# miejsce_urodzenia = input("Podaj swoje miejsce urodzenia: ")
+# zainteresowania = input("Podaj swoje zainteresowania: ")
+# zyciorys = "Nazywam się " + imie + " " + nazwisko + " i mam " + wiek + " lat. Jestem " + zawod + " i pochodzę z " + miejsce_urodzenia + ". Moje zainteresowania to " + zainteresowania + ". W przeszłości pracowałem/am również jako..."
+# print(zyciorys)
+
 # 11. Przygotuj dla dziecka, które uczy się czytać zestaw sylab do nauki, ale zrób to inteligentnie tj.
 # dziecko wpisuje na klawiaturze 1 spółgłoskę a Ty dodajesz do niej odpowiednie samogłoski i wyświetlasz całość na ekranie
+
+# spolgloski = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "z"]
+# samogloski = ["a", "e", "i", "o", "u", "y"]
+# while True:
+#     sp = input("Podaj spółgłoskę (lub wpisz 'koniec' aby zakończyć): ")
+#     if sp == "koniec":
+#         break
+#     if sp not in spolgloski:
+#         print("Niepoprawna spółgłoska.")
+#     else:
+#         for sam in samogloski:
+#             print(sp + sam)
+
+
 #12. Sprawdz wynik działań
 # 0 > 1
 # 0 <= 1
@@ -142,6 +219,24 @@
 # 1 != 0
 # 1 != 1
 #(x > 1 and x < 13) and x != 5  , dla x = 2
+
+# x = 2
+# print(0 > 1) 
+# print(0 <= 1) 
+# print(0 >= 1) 
+# print(1 == 0)  
+# print(1 == 1)  
+# print(1 != 0)  
+# print(1 != 1)  
+# print((x > 1 and x < 13) and x != 5) 
+
 # 13. Użytkownik podaje imie, sprawdź czy to imie to Janusz lub Grażyna
 #
 #print("#####################")
+
+# imie = input("Podaj swoje imię: ")
+
+# if imie == "Janusz" or imie == "Grażyna":
+#     print("Witaj,", imie)
+# else:
+#     print("Przykro mi,", imie, "nie jesteś Januszem ani Grażyną :(")
