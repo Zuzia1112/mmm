@@ -56,7 +56,9 @@
 # print(a < b)
 # print(a >= b)
 
-##############Zadania do wykonania, Twoje pierwsze algorytmy
+
+# roznica = a - b
+# iloczyn = a * b##############Zadania do wykonania, Twoje pierwsze algorytmy
 # 1. Wykonaj odejmowanie, mnożenie i dzielenie 2 dowolnych liczb
 
 # x = float(input('Podaj x = '))
@@ -128,8 +130,6 @@
 # b = float(input("Podaj drugą liczbę: "))
 
 # suma = a + b
-# roznica = a - b
-# iloczyn = a * b
 # iloraz = a / b
 # potega = a ** b
 
